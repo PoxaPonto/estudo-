@@ -23,6 +23,10 @@ server.put("/videos", () => {
   return `Hello Poxa`
 })
 
-server.listen({ 
-    port: 3000,
+server.delete("/videos", () => {
+  return `Hello Poxa`
+})
+
+server.listen({
+     port: 3333,
 })
